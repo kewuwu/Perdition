@@ -1,0 +1,1171 @@
+[
+    {
+        "name": "broker of diminishing returns",
+        "id": 0,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\0.png"
+    },
+    {
+        "name": "collector of overdue favors",
+        "id": 1,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\1.png"
+    },
+    {
+        "name": "curator of petty coins",
+        "id": 2,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\2.png"
+    },
+    {
+        "name": "keeper of the gold veil",
+        "id": 3,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\3.png"
+    },
+    {
+        "name": "warden of debts",
+        "id": 4,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\4.png"
+    },
+    {
+        "name": "merchant of fleeting wealth",
+        "id": 5,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\5.png"
+    },
+    {
+        "name": "scribe of greed",
+        "id": 6,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\6.png"
+    },
+    {
+        "name": "baron of bartered souls",
+        "id": 7,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "greed",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\7.png"
+    },
+    {
+        "name": "trusts betrayal",
+        "id": 8,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "lust",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\8.png"
+    },
+    {
+        "name": "charmers iament",
+        "id": 9,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "just",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\9.png"
+    },
+    {
+        "name": "enthrallers snare",
+        "id": 10,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "lust",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\10.png"
+    },
+    {
+        "name": "ibertines ruin",
+        "id": 11,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "just",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\11.png"
+    },
+    {
+        "name": "siren of broken vows",
+        "id": 12,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "lust",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\12.png"
+    },
+    {
+        "name": "hedonists echo",
+        "id": 13,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "lust",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\13.png"
+    },
+    {
+        "name": "deceivers guise",
+        "id": 14,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "lust",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\14.png"
+    },
+    {
+        "name": "fatales shadow",
+        "id": 15,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "just",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\15.png"
+    },
+    {
+        "name": "drowsy sentry",
+        "id": 16,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\16.png"
+    },
+    {
+        "name": "fading murmur",
+        "id": 17,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\17.png"
+    },
+    {
+        "name": "relic collector",
+        "id": 18,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\18.png"
+    },
+    {
+        "name": "ancient dozer",
+        "id": 19,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\19.png"
+    },
+    {
+        "name": "iethargic initiate",
+        "id": 20,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\20.png"
+    },
+    {
+        "name": "despondent drifter",
+        "id": 21,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\21.png"
+    },
+    {
+        "name": "broding recluse",
+        "id": 22,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\22.png"
+    },
+    {
+        "name": "shadow urker",
+        "id": 23,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "sloth",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\23.png"
+    },
+    {
+        "name": "greedling swarm",
+        "id": 24,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\24.png"
+    },
+    {
+        "name": "glut of greed",
+        "id": 25,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\25.png"
+    },
+    {
+        "name": "siphon spirit",
+        "id": 26,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\26.png"
+    },
+    {
+        "name": "feaster on the fallen",
+        "id": 27,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\27.png"
+    },
+    {
+        "name": "hungering shade",
+        "id": 28,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\28.png"
+    },
+    {
+        "name": "corpulent collector",
+        "id": 29,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\29.png"
+    },
+    {
+        "name": "gobbling ooze",
+        "id": 30,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\30.png"
+    },
+    {
+        "name": "ravenous void",
+        "id": 31,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "gluttony",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\31.png"
+    },
+    {
+        "name": "covetous imp",
+        "id": 32,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\32.png"
+    },
+    {
+        "name": "bitter rival",
+        "id": 33,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\33.png"
+    },
+    {
+        "name": "spiteful cretin",
+        "id": 34,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envysoul",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\34.png"
+    },
+    {
+        "name": "jealous spirit",
+        "id": 35,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\35.png"
+    },
+    {
+        "name": "enviers shade",
+        "id": 36,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\36.png"
+    },
+    {
+        "name": "resentful wraith",
+        "id": 37,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\37.png"
+    },
+    {
+        "name": "grudge holder",
+        "id": 38,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\38.png"
+    },
+    {
+        "name": "schemers echo",
+        "id": 39,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "envy",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\39.png"
+    },
+    {
+        "name": "berserkers rage",
+        "id": 40,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\40.png"
+    },
+    {
+        "name": "furys echo",
+        "id": 41,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\41.png"
+    },
+    {
+        "name": "scourge of malice",
+        "id": 42,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\42.png"
+    },
+    {
+        "name": "harbinger of retribution",
+        "id": 43,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\43.png"
+    },
+    {
+        "name": "vengeful destroyer",
+        "id": 44,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\44.png"
+    },
+    {
+        "name": "rage incarnate",
+        "id": 45,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\45.png"
+    },
+    {
+        "name": "wrathborn fiend",
+        "id": 46,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\46.png"
+    },
+    {
+        "name": "spiteful reprisal",
+        "id": 47,
+        "type": "soul",
+        "rarity": "common",
+        "sin": "wrath",
+        "vp": 1,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\47.png"
+    },
+    {
+        "name": "chancellor of avarice",
+        "id": 48,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "greed",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\48.png"
+    },
+    {
+        "name": "archon of the golden throne",
+        "id": 49,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "greed",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\49.png"
+    },
+    {
+        "name": "misers heart",
+        "id": 50,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "greed",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\50.png"
+    },
+    {
+        "name": "veilweaver",
+        "id": 51,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "lust",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\51.png"
+    },
+    {
+        "name": "broker of fortunes",
+        "id": 52,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "greed",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\52.png"
+    },
+    {
+        "name": "lure of the heartbinder",
+        "id": 53,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "lust",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\53.png"
+    },
+    {
+        "name": "goldsmith of shadows",
+        "id": 54,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "greed",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\54.png"
+    },
+    {
+        "name": "architect of twisted fantasies",
+        "id": 55,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "lust",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\55.png"
+    },
+    {
+        "name": "the defiled virgin",
+        "id": 56,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "lust",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\56.png"
+    },
+    {
+        "name": "dweller of the abyss",
+        "id": 57,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "sloth",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\57.png"
+    },
+    {
+        "name": "guardians fall",
+        "id": 58,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "lust",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\58.png"
+    },
+    {
+        "name": "temporal iaggard",
+        "id": 59,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "sloth",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\59.png"
+    },
+    {
+        "name": "guardian of indolence",
+        "id": 60,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "sloth",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\60.png"
+    },
+    {
+        "name": "apathetic keeper",
+        "id": 61,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "sloth",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\61.png"
+    },
+    {
+        "name": "herald of lethargy",
+        "id": 62,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "sloth",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\62.png"
+    },
+    {
+        "name": "envys herald",
+        "id": 63,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "envy",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\63.png"
+    },
+    {
+        "name": "mimics curse",
+        "id": 64,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "envy",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\64.png"
+    },
+    {
+        "name": "devourer of riches",
+        "id": 65,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "gluttony",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\65.png"
+    },
+    {
+        "name": "shadow of avarice",
+        "id": 66,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "envy",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\66.png"
+    },
+    {
+        "name": "soul glutton",
+        "id": 67,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "gluttony",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\67.png"
+    },
+    {
+        "name": "greensight gazer",
+        "id": 68,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "envy",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\68.png"
+    },
+    {
+        "name": "abyssal maw",
+        "id": 69,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "gluttony",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\69.png"
+    },
+    {
+        "name": "mimetic shadow",
+        "id": 70,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "envy",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\70.png"
+    },
+    {
+        "name": "feast of shadows",
+        "id": 71,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "gluttony",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\71.png"
+    },
+    {
+        "name": "gorge of the endless",
+        "id": 72,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "gluttony",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\72.png"
+    },
+    {
+        "name": "herald of ruin",
+        "id": 73,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "wrath",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\73.png"
+    },
+    {
+        "name": "inferno reckoner",
+        "id": 74,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "wrath",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\74.png"
+    },
+    {
+        "name": "dombringer",
+        "id": 75,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "wrath",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\75.png"
+    },
+    {
+        "name": "avatar of vengeance",
+        "id": 76,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "wrath",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\76.png"
+    },
+    {
+        "name": "sovereign of the endless vault",
+        "id": 77,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "greed",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\77.png"
+    },
+    {
+        "name": "thunderous wrath",
+        "id": 78,
+        "type": "soul",
+        "rarity": "rare",
+        "sin": "wrath",
+        "vp": 2,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\78.png"
+    },
+    {
+        "name": "adrianos jharvester of riches",
+        "id": 79,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "greed",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\79.png"
+    },
+    {
+        "name": "dominator of desires",
+        "id": 80,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "lust",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\80.png"
+    },
+    {
+        "name": "colossus of torpidity",
+        "id": 81,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "sloth",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\81.png"
+    },
+    {
+        "name": "mirror of depraved reflection",
+        "id": 82,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "lust",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\82.png"
+    },
+    {
+        "name": "bastard of the coveted",
+        "id": 83,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "envy",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\83.png"
+    },
+    {
+        "name": "empress enthrall",
+        "id": 84,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "lust",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\84.png"
+    },
+    {
+        "name": "resentment",
+        "id": 85,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "envy",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\85.png"
+    },
+    {
+        "name": "timekeepers shade",
+        "id": 86,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "sloth",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\86.png"
+    },
+    {
+        "name": "leviathan of excess",
+        "id": 87,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "gluttony",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\87.png"
+    },
+    {
+        "name": "grand connoisseur",
+        "id": 88,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "gluttony",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\88.png"
+    },
+    {
+        "name": "ego of the gilden mask",
+        "id": 89,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "pride",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\89.png"
+    },
+    {
+        "name": "archon of annihilation",
+        "id": 90,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "wrath",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\90.png"
+    },
+    {
+        "name": "iris of the shattered crown",
+        "id": 91,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "pride",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\91.png"
+    },
+    {
+        "name": "wraths emissary",
+        "id": 92,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "wrath",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\92.png"
+    },
+    {
+        "name": "overseer of ambitious glory",
+        "id": 93,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "pride",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\93.png"
+    },
+    {
+        "name": "aegis of eternal splendor",
+        "id": 94,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "pride",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\94.png"
+    },
+    {
+        "name": "scion of divine ascendency",
+        "id": 95,
+        "type": "soul",
+        "rarity": "legendary",
+        "sin": "pride",
+        "vp": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\95.png"
+    },
+    {
+        "name": "cainthe remorseiess",
+        "id": 96,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\96.png"
+    },
+    {
+        "name": "judith the heroine of bethulia",
+        "id": 97,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\97.png"
+    },
+    {
+        "name": "david the triumphant",
+        "id": 98,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\98.png"
+    },
+    {
+        "name": "mary the repentant",
+        "id": 99,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\99.png"
+    },
+    {
+        "name": "isaac the bound",
+        "id": 100,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\100.png"
+    },
+    {
+        "name": "saint joan the betrayed",
+        "id": 101,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\101.png"
+    },
+    {
+        "name": "jezebel the profane",
+        "id": 102,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\102.png"
+    },
+    {
+        "name": "saint peter the redeemed",
+        "id": 103,
+        "type": "player",
+        "max_guilt": 11,
+        "current_guilt": 5,
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\103.png"
+    },
+    {
+        "name": "quattor evangelista",
+        "id": 104,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\104.png"
+    },
+    {
+        "name": "equitis ascendentis",
+        "id": 105,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\105.png"
+    },
+    {
+        "name": "dei verbum",
+        "id": 106,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\106.png"
+    },
+    {
+        "name": "altare majus",
+        "id": 107,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\107.png"
+    },
+    {
+        "name": "unum",
+        "id": 108,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\108.png"
+    },
+    {
+        "name": "salpinx septum",
+        "id": 109,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\109.png"
+    },
+    {
+        "name": "agnus dei futilus",
+        "id": 110,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\110.png"
+    },
+    {
+        "name": "raptus",
+        "id": 111,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\111.png"
+    },
+    {
+        "name": "hubris de jucifero",
+        "id": 112,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\112.png"
+    },
+    {
+        "name": "messis terrae",
+        "id": 113,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\113.png"
+    },
+    {
+        "name": "plagus septem",
+        "id": 114,
+        "type": "divine",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\114.png"
+    },
+    {
+        "name": "archdaemon of envy",
+        "id": 115,
+        "sin": "envy",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\115.png"
+    },
+    {
+        "name": "archdaemon of lust",
+        "id": 116,
+        "sin": "lust",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\116.png"
+    },
+    {
+        "name": "archdaemon of gluttony",
+        "id": 117,
+        "sin": "gluttony",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\117.png"
+    },
+    {
+        "name": "archdaemon of pride",
+        "id": 118,
+        "sin": "pride",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\118.png"
+    },
+    {
+        "name": "archdaemon of greed",
+        "id": 119,
+        "sin": "greed",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\119.png"
+    },
+    {
+        "name": "archdaemon of sloth",
+        "id": 120,
+        "sin": "sloth",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\120.png"
+    },
+    {
+        "name": "archdaemon of wrath",
+        "id": 121,
+        "sin": "wrath",
+        "type": "archdaemon",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\121.png"
+    },
+    {
+        "name": "midnight market",
+        "id": 122,
+        "type": "layer_event",
+        "sin": "greed",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\122.png"
+    },
+    {
+        "name": "layer of lust",
+        "id": 123,
+        "type": "layer_event",
+        "sin": "lust",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\123.png"
+    },
+    {
+        "name": "layer of greed",
+        "id": 124,
+        "type": "layer_event",
+        "sin": "greed",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\124.png"
+    },
+    {
+        "name": "cupids gamble",
+        "id": 125,
+        "type": "layer_event",
+        "sin": "lust",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\125.png"
+    },
+    {
+        "name": "povertous",
+        "id": 126,
+        "type": "layer_event",
+        "sin": "greed",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\126.png"
+    },
+    {
+        "name": "idle riches",
+        "id": 127,
+        "type": "layer_event",
+        "sin": "sloth",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\127.png"
+    },
+    {
+        "name": "sirens call",
+        "id": 128,
+        "type": "layer_event",
+        "sin": "lust",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\128.png"
+    },
+    {
+        "name": "layer of sloth",
+        "id": 129,
+        "type": "layer_event",
+        "sin": "sloth",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\129.png"
+    },
+    {
+        "name": "lethargys reward",
+        "id": 130,
+        "type": "layer_event",
+        "sin": "sloth",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\130.png"
+    },
+    {
+        "name": "feast of folly",
+        "id": 131,
+        "type": "layer_event",
+        "sin": "gluttony",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\131.png"
+    },
+    {
+        "name": "covetous claws",
+        "id": 132,
+        "type": "layer_event",
+        "sin": "envy",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\132.png"
+    },
+    {
+        "name": "layer of gluttony",
+        "id": 133,
+        "type": "layer_event",
+        "sin": "gluttony",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\133.png"
+    },
+    {
+        "name": "layer of envy",
+        "id": 134,
+        "type": "layer_event",
+        "sin": "envy",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\134.png"
+    },
+    {
+        "name": "insatiable consumption",
+        "id": 135,
+        "type": "layer_event",
+        "sin": "gluttony",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\135.png"
+    },
+    {
+        "name": "malicious eclipsing",
+        "id": 136,
+        "type": "layer_event",
+        "sin": "envy",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\136.png"
+    },
+    {
+        "name": "cycle of vengeance",
+        "id": 137,
+        "type": "layer_event",
+        "sin": "wrath",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\137.png"
+    },
+    {
+        "name": "reapers reward",
+        "id": 138,
+        "type": "layer_event",
+        "sin": "wrath",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\138.png"
+    },
+    {
+        "name": "layer of wrath",
+        "id": 139,
+        "type": "layer_event",
+        "sin": "wrath",
+        "image_path": "c:\\Users\\Kevin\\Desktop\\Perdition Web App\\Card_Assets\\Card_Assets\\139.png"
+    }
+]

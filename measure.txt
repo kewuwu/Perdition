@@ -1,0 +1,11 @@
+Name:
+    Top: 70
+    Left: 152
+    Bottom: 918
+    Right: 150
+
+Rarity, Sin, Soul
+    Top: 522
+    Bottom:461
+    Right:70
+    Left:70
