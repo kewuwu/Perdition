@@ -1,6 +1,38 @@
 import json
+import os
+
+import card
 
 
+def parse_card_definition(card_dict) -> card.Card:
+    card_name = " ".join([k.capitalize() if k.lower() != 'of' else k for k in card_dict['name'].split()])
+
+    kwargs = {
+        "front_png": card_dict['image_path'],
+        'back_png': None,
+        'name': card_name
+    }
+
+    card_types = {
+        "soul": card.SoulCard,
+        "player": card.PlayerCard,
+        "daemon": card.DaemonCard,
+        "divine_revelation": card.DivineRevelationCard,
+        "layer_card": card.LayerCard
+    }
+    card_type = card_dict['type']
+    card_id = int(os.path.split(card_dict['image_path'])[-1].split(".")[0])
+    if card_type == 'soul':
+        c = card.SoulCard(
+            card_id, 
+            **kwargs, 
+            rarity=card_dict['rarity'], 
+            sin=card_dict['sin'], 
+            ceffect=card_dict.get("ceffect"), 
+            reffect=card_dict.get("reffect"), 
+            vp=card_dict['vp']
+        )
+        return c
 
 def exec_from_dict(obj):
     return execute(**obj)

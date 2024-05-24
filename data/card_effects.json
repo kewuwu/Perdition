@@ -2,8 +2,8 @@
     {
         "ceffect": {
             "passive": {
-                "if": {
-                    "condition": {
+                "if": [
+                    {
                         "observe": "end-of-turn",
                         "not": {
                             "action": "purchase",
@@ -15,12 +15,12 @@
                             }
                         }
                     },
-                    "true": {
+                    {
                         "action": "receive",
                         "amount": 2,
                         "currency": "layer-currency"
                     }
-                }
+                ]
             }
         },
         "reffect": {

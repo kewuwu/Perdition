@@ -14,3 +14,6 @@ class Board:
         self.pit_of_annihilation_zone = []
         # archdaemon and layer event
         self.throne_zone = []
+
+    def _reset(self):
+        pass
