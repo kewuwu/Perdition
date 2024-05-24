@@ -1,0 +1,520 @@
+[
+    {
+        "ceffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "observe": "end-of-turn",
+                        "not": {
+                            "action": "purchase",
+                            "amount": -1,
+                            "currency": "soul",
+                            "cooldown": {
+                                "type": "turn",
+                                "duration": 0
+                            }
+                        }
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 2,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "action": "purchase",
+                        "amount": {
+                            "gte": 1
+                        },
+                        "currency": "soul",
+                        "cooldown": {
+                            "type": "turn",
+                            "duration": 0
+                        }
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 2,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "invocation": {
+                "action": "loan",
+                "target": "opponent",
+                "give": {
+                    "amount": 1,
+                    "currency": "layer-currency"
+                },
+                "for": {
+                    "amount": 2,
+                    "currency": "layer-currency",
+                    "by": {
+                        "cooldown": {
+                            "type": "turn",
+                            "duration": 1
+                        }
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "object": "loan",
+                        "held-by": "opponent",
+                        "to": "self",
+                        "fulfilled": false
+                    },
+                    "true": {
+                        "action": {
+                            "type": "receive",
+                            "amount": 1,
+                            "currency": "victory-point"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "tap": [
+                {
+                    "action": "put",
+                    "from": {
+                        "deck": "soul",
+                        "amount": 2,
+                        "from_index": 1
+                    },
+                    "to": "${deck}"
+                },
+                {
+                    "action": "choose",
+                    "from": {
+                        "deck": "${deck}"
+                    },
+                    "amount": 2,
+                    "chosen": {
+                        "deck": "hand",
+                        "index": -1
+                    },
+                    "discarded": {
+                        "deck": "soul",
+                        "index": -1
+                    }
+                }
+            ]
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "action": "purchase",
+                        "amount": -1,
+                        "currency": {
+                            "deck": "soul"
+                        }
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 2,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "tap": {
+                "action": "receive",
+                "amount": {
+                    "count": {
+                        "deck": "hand",
+                        "where": {
+                            "card": {
+                                "type": "sin"
+                            }
+                        }
+                    }
+                },
+                "currency": "layer-currency"
+            }
+        },
+        "reffect": {
+            "tap": {
+                "if": {
+                    "condition": {
+                        "action": "own",
+                        "amount": "most",
+                        "currency": {
+                            "card": {
+                                "type": "redeemed"
+                            }
+                        },
+                        "target": "self"
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 1,
+                        "currency": "victory-point"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "tap": {
+                "action": "receive",
+                "amount": {
+                    "count": {
+                        "currency": {
+                            "where": {
+                                "type": "sin"
+                            }
+                        }
+                    }
+                },
+                "currency": "layer-currency"
+            }
+        },
+        "reffect": {
+            "4 warden of debts": "redeemed effect goes here"
+        }
+    },
+    {
+        "ceffect": {
+            "tap": [
+                {
+                    "action": "skip",
+                    "subject": {
+                        "action": "purchase"
+                    }
+                },
+                {
+                    "action": "receive",
+                    "amount": 3,
+                    "currency": "layer-currency"
+                }
+            ]
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "status": "in-debt",
+                        "subject": "${owner}"
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": {
+                            "count": {
+                                "deck": "",
+                                "Merchant of Fleeting Wealth": "FINISH REDEEMED"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "tap": [
+                {
+                    "action": "destroy",
+                    "target": {
+                        "deck": "opponent",
+                        "where": {
+                            "card": {
+                                "rarity": {
+                                    "lte": "rare"
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "action": "immolate"
+                }
+            ]
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "action": "copy",
+                        "subject": {
+                            "ability": {
+                                "type": "soul"
+                            }
+                        }
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 1,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "tap": {
+                "action": "trade",
+                "trader": {
+                    "trades": {
+                        "currency": "victory-point",
+                        "amount": 1
+                    },
+                    "forced": false
+                },
+                "tradee": {
+                    "trades": {
+                        "currency": "layer-currency",
+                        "amount": 6
+                    },
+                    "forced": false
+                }
+            }
+        },
+        "reffect": {
+            "passive": {
+                "if": {
+                    "condition": {
+                        "eq": [
+                            {
+                                "count": {
+                                    "action": "trade",
+                                    "subject": "self"
+                                }
+                            },
+                            2
+                        ]
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 1,
+                        "currency": "victory-point"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "invocation": {
+                "action": "attach",
+                "effect": {
+                    "if": {
+                        "and": [
+                            {
+                                "status": "attached",
+                                "subject": "self"
+                            },
+                            {
+                                "TRUSTS BETRAYAL": "FINISH CORRUPT"
+                            }
+                        ]
+                    }
+                },
+                "target": {
+                    "card": {
+                        "from": {
+                            "deck": "${opponent}",
+                            "where": {
+                                "card": {
+                                    "type": "soul"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "invocation": [
+                {
+                    "action": "attach",
+                    "target": {
+                        "card": {
+                            "from": {
+                                "deck": "${opponent}",
+                                "where": {
+                                    "card": {
+                                        "type": "soul"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "effect": {
+                        "tap": {
+                            "cost": {
+                                "amount": 2,
+                                "currency": "guilt"
+                            }
+                        }
+                    }
+                }
+            ],
+            "passive": {
+                "if": {
+                    "condition": {
+                        "status": "tapped",
+                        "target": "${attached-to}"
+                    },
+                    "true": [
+                        {
+                            "action": "receive",
+                            "amount": 5,
+                            "currency": "layer-currency"
+                        },
+                        {
+                            "action": "immolate"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "invocation": {
+                "action": "attach",
+                "target": {
+                    "card": {
+                        "from": {
+                            "deck": "${opponent}",
+                            "where": {
+                                "card": {
+                                    "type": "soul"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "passive": {
+                "if": {
+                    "condition": {
+                        "status": "tapped",
+                        "subject": "${attached-card}"
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 3,
+                        "currency": "??? <CHARMERS LAMENT TYPO?>"
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "invocation": {
+                "action": "attach",
+                "target": {
+                    "card": {
+                        "from": {
+                            "deck": "${opponent}",
+                            "where": {
+                                "card": {
+                                    "type": "soul"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "passive": {
+                "if": {
+                    "condition": {
+                        "status": "tapped",
+                        "subject": "${attached-card}"
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 3,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {
+            "invocation": {
+                "action": "attach",
+                "target": {
+                    "card": {
+                        "from": {
+                            "deck": "${opponent}",
+                            "where": {
+                                "card": {
+                                    "type": "soul"
+                                }
+                            }
+                        }
+                    }
+                },
+                "effect": {
+                    "cost": {
+                        "amount": {
+                            "add": [
+                                "${cost}",
+                                1
+                            ]
+                        },
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "invocation": {
+                "action": "attach",
+                "target": {
+                    "card": {
+                        "from": {
+                            "deck": "${opponent}",
+                            "where": {
+                                "card": {
+                                    "type": "soul"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "passive": {
+                "if": {
+                    "condition": {
+                        "status": "used",
+                        "subject": "${attached-card}"
+                    },
+                    "true": {
+                        "action": "receive",
+                        "amount": 1,
+                        "currency": "layer-currency"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ceffect": {},
+        "reffect": {}
+    }
+]

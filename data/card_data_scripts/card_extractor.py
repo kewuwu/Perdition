@@ -64,7 +64,7 @@ def crop_and_keras_soul(im, soul_array):
     else:
         card_data["vp"] = 5
     card_data["image_path"] = os.path.join(
-        os.getcwd(), "Card_Assets", "Card_Assets", file
+        os.getcwd(), "Card_Assets", file
     )
     soul_array.append(card_data)
     os.remove("crop_name_" + file)
@@ -89,7 +89,7 @@ def crop_and_keras_player(im, player_array):
     card_data["max_guilt"] = 11
     card_data["current_guilt"] = 5
     card_data["image_path"] = os.path.join(
-        os.getcwd(), "Card_Assets", "Card_Assets", file
+        os.getcwd(), "Card_Assets", file
     )
     player_array.append(card_data)
     os.remove("crop_name_" + file)
@@ -111,7 +111,7 @@ def crop_and_keras_divine(im, divine_array):
     card_data["id"] = int(file.split(".")[0])
     card_data["type"] = "divine"
     card_data["image_path"] = os.path.join(
-        os.getcwd(), "Card_Assets", "Card_Assets", file
+        os.getcwd(), "Card_Assets", file
     )
     card_data["vp"] = "1"
     divine_array.append(card_data)
@@ -139,7 +139,7 @@ def crop_and_keras_layer_event(im, layer_event_array):
     card_data["type"] = "layer_event"
     card_data["sin"] = sorted2[0][0]
     card_data["image_path"] = os.path.join(
-        os.getcwd(), "Card_Assets", "Card_Assets", file
+        os.getcwd(), "Card_Assets", file
     )
     layer_event_array.append(card_data)
     os.remove("crop_name_" + file)
@@ -164,14 +164,14 @@ def crop_and_keras_archdaemon(im, archdaemon_array):
     card_data["sin"] = name.split(" ")[2]
     card_data["type"] = "archdaemon"
     card_data["image_path"] = os.path.join(
-        os.getcwd(), "Card_Assets", "Card_Assets", file
+        os.getcwd(), "Card_Assets", file
     )
     archdaemon_array.append(card_data)
     os.remove("crop_name_" + file)
     return archdaemon_array
 
 
-fpath = os.path.join(os.getcwd(), "Card_Assets", "Card_Assets")
+fpath = os.path.join(os.getcwd(), "Card_Assets")
 files = sorted(os.listdir(fpath), key=lambda x: int(x.split(".")[0]))
 all_cards = []
 pipeline = keras_ocr.pipeline.Pipeline()
@@ -189,5 +189,5 @@ for file in files:
     else:
         crop_and_keras_layer_event(im, all_cards)
 print(all_cards)
-with open("all_cards.json", "w", encoding="utf-8") as f:
+with open("./all_cards.json", "w", encoding="utf-8") as f:
     f.write(json.dumps(all_cards, ensure_ascii=False, indent=4))
