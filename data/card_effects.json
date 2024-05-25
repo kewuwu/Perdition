@@ -2,17 +2,14 @@
     {
         "ceffect": {
             "passive": {
+                "event": "end-of-turn",
                 "if": [
                     {
-                        "observe": "end-of-turn",
                         "not": {
-                            "action": "purchase",
+                            "action": "has_purchased",
                             "amount": -1,
                             "currency": "soul",
-                            "cooldown": {
-                                "type": "turn",
-                                "duration": 0
-                            }
+                            "player": "${current_player}"
                         }
                     },
                     {

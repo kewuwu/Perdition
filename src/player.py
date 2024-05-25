@@ -19,6 +19,10 @@ class Player:
 
         self.hand = []
 
+        self.turn_actions = {
+            "purchased_souls_this_turn": []
+        }
+
 class HumanPlayer(Player):
     def __init__(self, player_number: int) -> None:
         super().__init__(player_number)
@@ -49,7 +53,7 @@ class HumanPlayer(Player):
         options[uin-1]['func'](*options[uin-1]['args']())
 
     def _get_purchase_args(self):
-        pass
+        return (self,)
 
     def _get_corrupt_or_redeem_args(self):
         def get_selected_cr_action():

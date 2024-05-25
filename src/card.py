@@ -1,3 +1,5 @@
+from observer import Observer
+
 class Card:
     def __init__(self, card_type, card_id, name, front_png, back_png):
         self.card_id = card_id
@@ -7,6 +9,8 @@ class Card:
         self.back_png = back_png
 
         self.in_play = False
+
+        self.event_observer = None
 
 
 class SoulCard(Card):

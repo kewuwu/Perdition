@@ -6,7 +6,50 @@
         "rarity": "common",
         "sin": "greed",
         "vp": 1,
-        "image_path": "data\\Card_Assets\\0.png"
+        "image_path": "data\\Card_Assets\\0.png",
+        "ceffect": {
+            "passive": {
+                "event": "end-of-turn",
+                "if": [
+                    {
+                        "not": {
+                            "action": "has_purchased",
+                            "amount": -1,
+                            "currency": "soul",
+                            "player": "${current_player}"
+                        }
+                    },
+                    {
+                        "action": "receive",
+                        "amount": 2,
+                        "currency": "layer-currency"
+                    }
+                ]
+            }
+        },
+        "reffect": {
+            "passive": {
+                "event": "end-of-turn",
+                "if": [
+                    {
+                        "action": "purchase",
+                        "amount": {
+                            "gte": 1
+                        },
+                        "currency": "soul",
+                        "cooldown": {
+                            "type": "turn",
+                            "duration": 0
+                        }
+                    },
+                    {
+                        "action": "receive",
+                        "amount": 2,
+                        "currency": "layer-currency"
+                    }
+                ]
+            }
+        }
     },
     {
         "name": "collector of overdue favors",

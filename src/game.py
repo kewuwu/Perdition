@@ -37,13 +37,13 @@ class Game:
         for i, cd in enumerate(card_data):
             name = " ".join([k.capitalize() if k.lower() != 'of' else k for k in cd['name'].split()])
             card_type = cd['type']
-            parsed_card = card_parser.parse_card_definition(cd)
+            parsed_card = card_parser.parse_card_definition(cd, self)
             if parsed_card:
                 deck.append(parsed_card)
         return deck
 
     def start(self):
-        self.restart_game()
+        self.restart_game(self.players[0])
         for layer in LAYERS_PER_GAME:
             for i in range(ROUNDS_PER_LAYER):
                 self.do_round(layer, i)
@@ -59,9 +59,10 @@ class Game:
         for player in self.players:
             player._reset()
         
-        for _ in range(STARTING_CARD_COUNT_PER_PLAYER):
-            for player in self.players:
-                player.hand.append(self.deck.pop())
+        # for _ in range(STARTING_CARD_COUNT_PER_PLAYER):
+        #     for player in self.players:
+        #         player.hand.append(self.deck.pop())
+        self.players[0].hand.append(self.deck.pop())
 
         self.active_player = starting_player or random.choice(self.players)
 
@@ -90,9 +91,9 @@ class Game:
         to check if criteria for effects are met
         """
         if condition == 'start':
-            self.start_of_turn_passive_subject.notify()
+            self.start_of_turn_passive_subject.notify(self)
         elif condition == 'end':
-            self.end_of_turn_passive_subject.notify()
+            self.end_of_turn_passive_subject.notify(self)
 
     def return_from_punishment_and_confession(self):
         """
