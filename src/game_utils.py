@@ -10,8 +10,11 @@ def get_input(return_type=str, validation=None):
                 print(f"Invalid input")
                 continue
             if validation:
-                if validation(uin):
-                    return uin
+                try:
+                    if validation(uin):
+                        return uin
+                except:
+                    pass
                 print("Invalid input")
             else:
                 return uin

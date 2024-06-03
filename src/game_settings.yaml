@@ -1,0 +1,40 @@
+## Game Init Settings
+pit-of-annihilation-size: 3
+max-active-cards-per-player: 7
+corruption-layer-currency-reward: 3
+redemption-layer-currency-reward: 2
+max-cards-converted-per-layer: 5
+starting-card-count-per-player: 3
+starting-layer-currency-per-player: 5
+conversion-guilt-cost: 1
+min-players: 2
+max-players: 4
+
+## Card Settings
+divine-revelation-soul-cost: 2
+card-costs:
+  common: 3
+  rare: 5
+  legendary: 8
+  unknown: 5
+
+## Layer Settings
+restock-cards-per-layer: 3
+layer-events-per-layer: 1
+layer-currency-retention-on-layer-transition: 0.5
+game-layers:
+  - name: Greed
+    max-guilt: 4
+  - name: Lust
+    max-guilt: 5
+  - name: Sloth
+    max-guilt: 6
+  - name: Envy
+    max-guilt: 7
+  - name: Gluttony
+    max-guilt: 8
+  - name: Wrath
+    max-guilt: 9
+  - name: Pride
+    max-guilt: 10
+rounds-per-layer: 3

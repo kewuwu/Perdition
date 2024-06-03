@@ -1,4 +1,8 @@
-from observer import Observer
+from game_events import Observer
+
+
+REDEEMED = 'redeemed'
+CORRUPTED = 'corrupted'
 
 class Card:
     def __init__(self, card_type, card_id, name, front_png, back_png):
@@ -8,9 +12,8 @@ class Card:
         self.front_png = front_png
         self.back_png = back_png
 
-        self.in_play = False
-
-        self.event_observer = None
+        self.is_active = False
+        self.event_observers = []
 
 
 class SoulCard(Card):
@@ -32,6 +35,8 @@ class SoulCard(Card):
         self.ceffect = ceffect
         self.reffect = reffect
         self.vp = vp
+        self.tapped = False
+        self.converted_to = None
 
     def __str__(self) -> str:
         return f"{self.name} - {self.rarity.capitalize()} {self.sin.capitalize()} {self.card_type.capitalize()}"

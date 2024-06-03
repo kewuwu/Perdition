@@ -22,7 +22,8 @@
                     {
                         "action": "receive",
                         "amount": 2,
-                        "currency": "layer-currency"
+                        "currency": "layer-currency",
+                        "target": "${current_player}"
                     }
                 ]
             }
@@ -32,20 +33,16 @@
                 "event": "end-of-turn",
                 "if": [
                     {
-                        "action": "purchase",
-                        "amount": {
-                            "gte": 1
-                        },
+                        "action": "has_purchased",
+                        "amount": -1,
                         "currency": "soul",
-                        "cooldown": {
-                            "type": "turn",
-                            "duration": 0
-                        }
+                        "player": "${current_player}"
                     },
                     {
                         "action": "receive",
                         "amount": 2,
-                        "currency": "layer-currency"
+                        "currency": "layer-currency",
+                        "target": "${current_player}"
                     }
                 ]
             }
@@ -58,7 +55,38 @@
         "rarity": "common",
         "sin": "greed",
         "vp": 1,
-        "image_path": "data\\Card_Assets\\1.png"
+        "image_path": "data\\Card_Assets\\1.png",
+        "ceffect": {
+            "invocation": {
+                "action": "loan",
+                "target": {
+                    "action": "choose",
+                    "chooser": "${current_player}",
+                    "from": "${opponents}"
+                },
+                "loaning": {
+                    "currency": "layer-currency",
+                    "amount": 1
+                },
+                "in_return_for": {
+                    "currency": "layer-currency",
+                    "amount": 2,
+                    "cashed_on": {
+                        "unit": "turn",
+                        "amount": 2
+                    }
+                }
+            }
+        },
+        "reffect": {
+            "passive": {
+                "event": "unfulfilled_loan",
+                "action": "receive",
+                "amount": 1,
+                "currency": "victory-point",
+                "target": "${current_player}"
+            }
+        }
     },
     {
         "name": "curator of petty coins",
@@ -67,7 +95,59 @@
         "rarity": "common",
         "sin": "greed",
         "vp": 1,
-        "image_path": "data\\Card_Assets\\2.png"
+        "image_path": "data\\Card_Assets\\2.png",
+        "ceffect": {
+            "tap": [
+                {
+                    "action": "peek",
+                    "at": {
+                        "deck": "${soul-deck}",
+                        "from": "${top}"
+                    },
+                    "peeked": "${next}"
+                },
+                {
+                    "action": "choose",
+                    "chooser": "${current_player}",
+                    "from": "${next}",
+                    "amount": 1,
+                    "discarded": "${next}"
+                },
+                {
+                    "action": "put",
+                    "from": "${next}",
+                    "amount": -1,
+                    "to": {
+                        "deck": "${soul-deck}",
+                        "from": "${bottom}"
+                    }
+                }
+            ]
+        },
+        "reffect": {
+            "passive": {
+                "event": "soul_card_purchased",
+                "if": [
+                    {
+                        "equals": [
+                            "${item}",
+                            {
+                                "card_at_index": {
+                                    "index": -1,
+                                    "deck": "${soul-deck}"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "action": "receive",
+                        "currency": "layer-currency",
+                        "amount": 2,
+                        "target": "${current-player}"
+                    }
+                ]
+            }
+        }
     },
     {
         "name": "keeper of the gold veil",
